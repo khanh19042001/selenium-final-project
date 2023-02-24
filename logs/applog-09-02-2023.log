@@ -1,0 +1,649 @@
+[INFO ] 09-02-2023 08:37:24 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 08:37:24 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 08:37:24 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 08:37:26 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 08:37:26 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 09-02-2023 08:37:54 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 08:37:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Username')] : visible
+[INFO ] 09-02-2023 08:38:00 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Password')] : visible
+[INFO ] 09-02-2023 08:38:05 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Login'] : clickable
+[INFO ] 09-02-2023 08:38:07 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC3
+[INFO ] 09-02-2023 08:38:07 [main] [Log] - waitForElementClickableBy: Element By.xpath: //span[text()='PIM'] : clickable
+[INFO ] 09-02-2023 08:38:15 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+[INFO ] 09-02-2023 08:38:15 [main] [Log] - waitForElementClickableBy: Element By.xpath: //a[text()='Add Employee'] : clickable
+[INFO ] 09-02-2023 08:38:16 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'First Name')] : visible
+[INFO ] 09-02-2023 08:38:20 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Middle Name')] : visible
+[INFO ] 09-02-2023 08:38:25 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Last Name')] : visible
+[INFO ] 09-02-2023 08:38:30 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Employee Id']/following::input[1] : visible
+[ERROR] 09-02-2023 08:38:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/following::input[1] : invisible 
+[INFO ] 09-02-2023 08:38:47 [main] [Log] - 
+TestListener: COMPLETED TC: TC3 - FAIL 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 08:38:48 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee
+[ERROR] 09-02-2023 08:38:48 [main] [Log] - FAILED !! Screenshot for test case: TC3
+[ERROR] 09-02-2023 08:38:48 [main] [Log] - java.lang.NullPointerException
+[INFO ] 09-02-2023 08:38:49 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 08:39:21 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 08:39:21 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 08:39:21 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 08:39:24 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 08:39:24 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 09-02-2023 08:39:48 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 08:39:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Username')] : visible
+[INFO ] 09-02-2023 08:39:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Password')] : visible
+[INFO ] 09-02-2023 08:39:48 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Login'] : clickable
+[INFO ] 09-02-2023 08:39:49 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC3
+[INFO ] 09-02-2023 08:39:50 [main] [Log] - waitForElementClickableBy: Element By.xpath: //span[text()='PIM'] : clickable
+[INFO ] 09-02-2023 08:39:54 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+[INFO ] 09-02-2023 08:39:54 [main] [Log] - waitForElementClickableBy: Element By.xpath: //a[text()='Add Employee'] : clickable
+[INFO ] 09-02-2023 08:39:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'First Name')] : visible
+[INFO ] 09-02-2023 08:39:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Middle Name')] : visible
+[INFO ] 09-02-2023 08:39:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Last Name')] : visible
+[INFO ] 09-02-2023 08:39:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Employee Id']/following::input[1] : visible
+[INFO ] 09-02-2023 08:39:59 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Save'] : clickable
+[INFO ] 09-02-2023 08:40:03 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Nickname']/following::input[1] : visible
+[INFO ] 09-02-2023 08:40:04 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Other Id']/following::input[1] : visible
+[INFO ] 09-02-2023 08:40:14 [main] [Log] - 
+TestListener: COMPLETED TC: TC3 - FAIL 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 08:40:15 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/73
+[ERROR] 09-02-2023 08:40:15 [main] [Log] - FAILED !! Screenshot for test case: TC3
+[ERROR] 09-02-2023 08:40:15 [main] [Log] - org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //label[text()='Driver's License Number']/following::input[1] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//label[text()='Driver's License Number']/following::input[1]' is not a valid XPath expression.
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-OOFBHA8', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5690aaa2e8d6ecc7974b1abcff1ecc0, findElements {using=xpath, value=//label[text()='Driver's License Number']/following::input[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53807}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53807/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e5690aaa2e8d6ecc7974b1abcff1ecc0
+[INFO ] 09-02-2023 08:40:17 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 08:47:20 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 08:47:20 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 08:47:20 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 08:47:21 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 08:47:21 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 09-02-2023 08:47:32 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 08:47:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Username')] : visible
+[INFO ] 09-02-2023 08:47:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Password')] : visible
+[INFO ] 09-02-2023 08:47:33 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Login'] : clickable
+[INFO ] 09-02-2023 08:47:35 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC3
+[INFO ] 09-02-2023 08:47:35 [main] [Log] - waitForElementClickableBy: Element By.xpath: //span[text()='PIM'] : clickable
+[INFO ] 09-02-2023 08:47:39 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+[INFO ] 09-02-2023 08:47:39 [main] [Log] - waitForElementClickableBy: Element By.xpath: //a[text()='Add Employee'] : clickable
+[INFO ] 09-02-2023 08:47:40 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'First Name')] : visible
+[INFO ] 09-02-2023 08:47:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Middle Name')] : visible
+[INFO ] 09-02-2023 08:47:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Last Name')] : visible
+[INFO ] 09-02-2023 08:47:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'Employee Id')]/following::input[1] : visible
+[INFO ] 09-02-2023 08:47:44 [main] [Log] - check data input  - Actual: 0258123456 ; Expected: 123456 -> VERIFY : false
+[INFO ] 09-02-2023 08:47:44 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Save'] : clickable
+[INFO ] 09-02-2023 08:47:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'Nickname')]/following::input[1] : visible
+[INFO ] 09-02-2023 08:47:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'Other Id')]/following::input[1] : visible
+[INFO ] 09-02-2023 08:47:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'License Number')]/following::input[1] : visible
+[INFO ] 09-02-2023 08:47:49 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[contains(@class,'date-input')] : clickable
+[INFO ] 09-02-2023 08:47:50 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(@class,'month')] : clickable
+[INFO ] 09-02-2023 08:47:51 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(text(),'May')] : clickable
+[INFO ] 09-02-2023 08:47:51 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(@class,'year')] : clickable
+[INFO ] 09-02-2023 08:48:01 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(text(),'20221')] : unclickable
+[INFO ] 09-02-2023 08:48:01 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(text(),'20221')] : unclickable
+[INFO ] 09-02-2023 08:48:06 [main] [Log] - 
+TestListener: COMPLETED TC: TC3 - FAIL 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 08:48:07 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/81
+[ERROR] 09-02-2023 08:48:07 [main] [Log] - FAILED !! Screenshot for test case: TC3
+[ERROR] 09-02-2023 08:48:07 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[contains(text(),'20221')]"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-OOFBHA8', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17a3069dab45f66e12283a61139d16f7, findElement {using=xpath, value=//li[contains(text(),'20221')]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54237}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54237/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17a3069dab45f66e12283a61139d16f7
+[INFO ] 09-02-2023 08:48:08 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 08:48:46 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 08:48:46 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 08:48:46 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 08:48:47 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 08:48:47 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 09-02-2023 08:49:33 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 08:49:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Username')] : visible
+[INFO ] 09-02-2023 08:49:33 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Password')] : visible
+[INFO ] 09-02-2023 08:49:34 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Login'] : clickable
+[INFO ] 09-02-2023 08:49:34 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC3
+[INFO ] 09-02-2023 08:49:35 [main] [Log] - waitForElementClickableBy: Element By.xpath: //span[text()='PIM'] : clickable
+[INFO ] 09-02-2023 08:49:40 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+[INFO ] 09-02-2023 08:49:40 [main] [Log] - waitForElementClickableBy: Element By.xpath: //a[text()='Add Employee'] : clickable
+[INFO ] 09-02-2023 08:49:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'First Name')] : visible
+[INFO ] 09-02-2023 08:49:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Middle Name')] : visible
+[INFO ] 09-02-2023 08:49:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Last Name')] : visible
+[INFO ] 09-02-2023 08:49:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'Employee Id')]/following::input[1] : visible
+[INFO ] 09-02-2023 08:49:44 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Save'] : clickable
+[INFO ] 09-02-2023 08:49:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'Nickname')]/following::input[1] : visible
+[INFO ] 09-02-2023 08:49:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'Other Id')]/following::input[1] : visible
+[INFO ] 09-02-2023 08:49:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'License Number')]/following::input[1] : visible
+[INFO ] 09-02-2023 08:49:49 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[contains(@class,'date-input')] : clickable
+[INFO ] 09-02-2023 08:49:50 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(@class,'month')] : clickable
+[INFO ] 09-02-2023 08:49:50 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(text(),'May')] : clickable
+[INFO ] 09-02-2023 08:49:51 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(@class,'year')] : clickable
+[INFO ] 09-02-2023 08:49:51 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(text(),'2021')] : clickable
+[INFO ] 09-02-2023 08:49:51 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[text()='2'] : clickable
+[INFO ] 09-02-2023 08:49:51 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[text()='2'] : clickable
+[INFO ] 09-02-2023 08:49:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'SSN Number')]/following::input[1] : visible
+[INFO ] 09-02-2023 08:49:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'SIN Number')]/following::input[1] : visible
+[INFO ] 09-02-2023 08:49:52 [main] [Log] - waitForElementClickableBy: Element By.xpath: //label[text()='Nationality']/following::div[@class='oxd-select-wrapper'][1] : clickable
+[INFO ] 09-02-2023 08:49:52 [main] [Log] - waitForElementClickableBy: Element By.xpath: //span[text()='American'] : clickable
+[INFO ] 09-02-2023 08:49:52 [main] [Log] - waitForElementClickableBy: Element By.xpath: //label[text()='Marital Status']/following::div[@class='oxd-select-wrapper'][1] : clickable
+[INFO ] 09-02-2023 08:49:52 [main] [Log] - waitForElementClickableBy: Element By.xpath: //span[text()='Single'] : clickable
+[INFO ] 09-02-2023 08:49:52 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[contains(@class,'date-input')] : clickable
+[INFO ] 09-02-2023 08:49:53 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(@class,'month')] : clickable
+[INFO ] 09-02-2023 08:49:53 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(text(),'May')] : clickable
+[INFO ] 09-02-2023 08:49:53 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(@class,'year')] : clickable
+[INFO ] 09-02-2023 08:49:54 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(text(),'2021')] : clickable
+[INFO ] 09-02-2023 08:49:54 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[text()='19'] : clickable
+[INFO ] 09-02-2023 08:49:54 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[text()='19'] : clickable
+[INFO ] 09-02-2023 08:49:54 [main] [Log] - waitForElementClickableBy: Element By.xpath: //label[text()='Male'] : clickable
+[INFO ] 09-02-2023 08:49:55 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Save'] : clickable
+[INFO ] 09-02-2023 08:49:55 [main] [Log] - 
+TestListener: COMPLETED TC: TC3 - PASS 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 08:49:56 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 08:52:51 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 08:52:51 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 08:52:51 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 08:52:53 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 08:52:53 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 09-02-2023 08:53:19 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 08:53:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Username')] : visible
+[INFO ] 09-02-2023 08:53:19 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Password')] : visible
+[INFO ] 09-02-2023 08:53:20 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Login'] : clickable
+[INFO ] 09-02-2023 08:53:21 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC3
+[INFO ] 09-02-2023 08:53:22 [main] [Log] - waitForElementClickableBy: Element By.xpath: //span[text()='PIM'] : clickable
+[INFO ] 09-02-2023 08:53:26 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+[INFO ] 09-02-2023 08:53:26 [main] [Log] - waitForElementClickableBy: Element By.xpath: //a[text()='Add Employee'] : clickable
+[INFO ] 09-02-2023 08:53:28 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'First Name')] : visible
+[INFO ] 09-02-2023 08:53:28 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Middle Name')] : visible
+[INFO ] 09-02-2023 08:53:28 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Last Name')] : visible
+[INFO ] 09-02-2023 08:53:28 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'Employee Id')]/following::input[1] : visible
+[INFO ] 09-02-2023 08:53:31 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Save'] : clickable
+[ERROR] 09-02-2023 08:53:41 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'Nickname')]/following::input[1] : invisible 
+[INFO ] 09-02-2023 08:53:46 [main] [Log] - 
+TestListener: COMPLETED TC: TC3 - FAIL 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 08:53:47 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee
+[ERROR] 09-02-2023 08:53:47 [main] [Log] - FAILED !! Screenshot for test case: TC3
+[ERROR] 09-02-2023 08:53:47 [main] [Log] - java.lang.NullPointerException
+[INFO ] 09-02-2023 08:53:48 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:25:18 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 09:25:18 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 09:25:18 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:25:19 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 09:25:19 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 09-02-2023 09:25:32 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 09:25:32 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Username')] : visible
+[INFO ] 09-02-2023 09:25:32 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Password')] : visible
+[INFO ] 09-02-2023 09:25:32 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Login'] : clickable
+[INFO ] 09-02-2023 09:25:35 [main] [Log] - 
+TestListener: COMPLETED TC: TC3 - SKIP 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:25:35 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 09-02-2023 09:25:36 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:26:10 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 09:26:10 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 09:26:10 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:26:11 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 09:26:11 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 09-02-2023 09:26:30 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 09:26:30 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Username')] : visible
+[INFO ] 09-02-2023 09:26:30 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Password')] : visible
+[INFO ] 09-02-2023 09:26:30 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Login'] : clickable
+[INFO ] 09-02-2023 09:26:33 [main] [Log] - 
+TestListener: COMPLETED TC: TC3 - SKIP 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:26:33 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 09-02-2023 09:26:34 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:27:51 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 09:27:51 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 09:27:51 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:27:52 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 09:27:52 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 09-02-2023 09:28:16 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 09:28:16 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Username')] : visible
+[INFO ] 09-02-2023 09:28:17 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Password')] : visible
+[INFO ] 09-02-2023 09:28:17 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Login'] : clickable
+[INFO ] 09-02-2023 09:28:19 [main] [Log] - 
+TestListener: COMPLETED TC: TC3 - SKIP 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:28:20 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 09-02-2023 09:28:20 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:29:13 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 09:29:13 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 09:29:13 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:29:13 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 09:29:13 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 09-02-2023 09:29:26 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 09:29:26 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Username')] : visible
+[INFO ] 09-02-2023 09:29:26 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Password')] : visible
+[INFO ] 09-02-2023 09:29:26 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Login'] : clickable
+[INFO ] 09-02-2023 09:29:29 [main] [Log] - 
+TestListener: COMPLETED TC: TC3 - SKIP 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:29:29 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 09-02-2023 09:29:30 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:34:34 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 09:34:34 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 09:34:34 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:34:35 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 09:34:35 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 09-02-2023 09:34:46 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 09:34:46 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Username')] : visible
+[INFO ] 09-02-2023 09:34:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Password')] : visible
+[INFO ] 09-02-2023 09:34:47 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Login'] : clickable
+[INFO ] 09-02-2023 09:34:49 [main] [Log] - 
+TestListener: COMPLETED TC: TC3 - SKIP 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:34:49 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 09-02-2023 09:34:50 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:37:10 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 09:37:10 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 09:37:10 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:37:10 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 09:37:10 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 09-02-2023 09:37:21 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 09:37:21 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Username')] : visible
+[INFO ] 09-02-2023 09:37:22 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Password')] : visible
+[INFO ] 09-02-2023 09:37:22 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Login'] : clickable
+[INFO ] 09-02-2023 09:37:24 [main] [Log] - 
+TestListener: COMPLETED TC: TC3 - SKIP 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:37:24 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 09-02-2023 09:37:25 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:41:09 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 09:41:09 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 09:41:09 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:41:13 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 09:41:13 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 09-02-2023 09:41:25 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 09:41:25 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Username')] : visible
+[INFO ] 09-02-2023 09:41:25 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Password')] : visible
+[INFO ] 09-02-2023 09:41:26 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Login'] : clickable
+[INFO ] 09-02-2023 09:41:28 [main] [Log] - 
+TestListener: COMPLETED TC: TC3 - SKIP 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:41:29 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO ] 09-02-2023 09:41:29 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:42:50 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 09:42:50 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 09:42:50 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:42:51 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 09:42:51 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 09-02-2023 09:43:02 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 09:43:02 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Username')] : visible
+[INFO ] 09-02-2023 09:43:03 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Password')] : visible
+[INFO ] 09-02-2023 09:43:03 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Login'] : clickable
+[INFO ] 09-02-2023 09:43:05 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC3
+[INFO ] 09-02-2023 09:43:05 [main] [Log] - waitForElementClickableBy: Element By.xpath: //span[text()='PIM'] : clickable
+[INFO ] 09-02-2023 09:43:10 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+[INFO ] 09-02-2023 09:43:10 [main] [Log] - 
+TestListener: COMPLETED TC: TC3 - PASS 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:43:10 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:43:23 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 09:43:23 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 09:43:23 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:43:24 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 09:43:24 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 09-02-2023 09:43:36 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 09:43:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Username')] : visible
+[INFO ] 09-02-2023 09:43:36 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Password')] : visible
+[INFO ] 09-02-2023 09:43:36 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Login'] : clickable
+[INFO ] 09-02-2023 09:43:39 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC3
+[INFO ] 09-02-2023 09:43:39 [main] [Log] - waitForElementClickableBy: Element By.xpath: //span[text()='PIM'] : clickable
+[INFO ] 09-02-2023 09:43:43 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+[INFO ] 09-02-2023 09:43:43 [main] [Log] - waitForElementClickableBy: Element By.xpath: //a[text()='Add Employee'] : clickable
+[INFO ] 09-02-2023 09:43:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'First Name')] : visible
+[INFO ] 09-02-2023 09:43:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Middle Name')] : visible
+[INFO ] 09-02-2023 09:43:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Last Name')] : visible
+[INFO ] 09-02-2023 09:43:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'Employee Id')]/following::input[1] : visible
+[INFO ] 09-02-2023 09:43:47 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Save'] : clickable
+[INFO ] 09-02-2023 09:43:51 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'Nickname')]/following::input[1] : visible
+[INFO ] 09-02-2023 09:43:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'Other Id')]/following::input[1] : visible
+[INFO ] 09-02-2023 09:43:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'License Number')]/following::input[1] : visible
+[INFO ] 09-02-2023 09:43:52 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[contains(@class,'date-input')] : clickable
+[INFO ] 09-02-2023 09:43:53 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(@class,'month')] : clickable
+[INFO ] 09-02-2023 09:43:53 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(text(),'May')] : clickable
+[INFO ] 09-02-2023 09:43:54 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(@class,'year')] : clickable
+[INFO ] 09-02-2023 09:43:54 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(text(),'2019')] : clickable
+[INFO ] 09-02-2023 09:43:54 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[text()='20'] : clickable
+[INFO ] 09-02-2023 09:43:54 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[text()='20'] : clickable
+[INFO ] 09-02-2023 09:43:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'SSN Number')]/following::input[1] : visible
+[INFO ] 09-02-2023 09:43:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'SIN Number')]/following::input[1] : visible
+[INFO ] 09-02-2023 09:43:55 [main] [Log] - waitForElementClickableBy: Element By.xpath: //label[text()='Nationality']/following::div[@class='oxd-select-wrapper'][1] : clickable
+[INFO ] 09-02-2023 09:43:55 [main] [Log] - waitForElementClickableBy: Element By.xpath: //span[text()='American'] : clickable
+[INFO ] 09-02-2023 09:43:55 [main] [Log] - waitForElementClickableBy: Element By.xpath: //label[text()='Marital Status']/following::div[@class='oxd-select-wrapper'][1] : clickable
+[INFO ] 09-02-2023 09:43:55 [main] [Log] - waitForElementClickableBy: Element By.xpath: //span[text()='Single'] : clickable
+[INFO ] 09-02-2023 09:43:55 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[contains(@class,'date-input')] : clickable
+[INFO ] 09-02-2023 09:43:55 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(@class,'month')] : clickable
+[INFO ] 09-02-2023 09:43:56 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(text(),'February')] : clickable
+[INFO ] 09-02-2023 09:43:56 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(@class,'year')] : clickable
+[INFO ] 09-02-2023 09:43:57 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(text(),'2001')] : clickable
+[INFO ] 09-02-2023 09:43:57 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[text()='20'] : clickable
+[INFO ] 09-02-2023 09:43:57 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[text()='20'] : clickable
+[INFO ] 09-02-2023 09:44:08 [main] [Log] - waitForElementClickableBy: Element By.xpath: //label[text()='Madle'] : unclickable
+[INFO ] 09-02-2023 09:44:08 [main] [Log] - waitForElementClickableBy: Element By.xpath: //label[text()='Madle'] : unclickable
+[INFO ] 09-02-2023 09:44:13 [main] [Log] - 
+TestListener: COMPLETED TC: TC3 - FAIL 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:44:13 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/96
+[ERROR] 09-02-2023 09:44:13 [main] [Log] - FAILED !! Screenshot for test case: TC3
+[ERROR] 09-02-2023 09:44:13 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Madle']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-OOFBHA8', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17c90a7831675b228e658f8e7aa5be70, findElement {using=xpath, value=//label[text()='Madle']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55654}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55654/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17c90a7831675b228e658f8e7aa5be70
+[INFO ] 09-02-2023 09:44:14 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:49:30 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 09:49:30 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 09:49:30 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:49:31 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 09:49:32 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 09-02-2023 09:49:44 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 09:49:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Username')] : visible
+[INFO ] 09-02-2023 09:49:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Password')] : visible
+[INFO ] 09-02-2023 09:49:44 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Login'] : clickable
+[INFO ] 09-02-2023 09:49:47 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC3
+[INFO ] 09-02-2023 09:49:47 [main] [Log] - waitForElementClickableBy: Element By.xpath: //span[text()='PIM'] : clickable
+[INFO ] 09-02-2023 09:49:51 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+[INFO ] 09-02-2023 09:49:51 [main] [Log] - waitForElementClickableBy: Element By.xpath: //a[text()='Add Employee'] : clickable
+[INFO ] 09-02-2023 09:49:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'First Name')] : visible
+[INFO ] 09-02-2023 09:49:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Middle Name')] : visible
+[INFO ] 09-02-2023 09:49:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Last Name')] : visible
+[INFO ] 09-02-2023 09:49:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'Employee Id')]/following::input[1] : visible
+[INFO ] 09-02-2023 09:49:55 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Save'] : clickable
+[ERROR] 09-02-2023 09:50:06 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'Nickname')]/following::input[1] : invisible 
+[INFO ] 09-02-2023 09:50:11 [main] [Log] - 
+TestListener: COMPLETED TC: TC3 - FAIL 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:50:11 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+[ERROR] 09-02-2023 09:50:11 [main] [Log] - FAILED !! Screenshot for test case: TC3
+[ERROR] 09-02-2023 09:50:11 [main] [Log] - java.lang.NullPointerException
+[INFO ] 09-02-2023 09:50:12 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:50:40 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 09:50:40 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 09:50:40 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:50:41 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 09:50:41 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 09-02-2023 09:50:57 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 09:50:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Username')] : visible
+[INFO ] 09-02-2023 09:50:58 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Password')] : visible
+[INFO ] 09-02-2023 09:50:58 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Login'] : clickable
+[INFO ] 09-02-2023 09:51:00 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC3
+[INFO ] 09-02-2023 09:51:00 [main] [Log] - waitForElementClickableBy: Element By.xpath: //span[text()='PIM'] : clickable
+[INFO ] 09-02-2023 09:51:04 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+[INFO ] 09-02-2023 09:51:05 [main] [Log] - waitForElementClickableBy: Element By.xpath: //a[text()='Add Employee'] : clickable
+[INFO ] 09-02-2023 09:51:06 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'First Name')] : visible
+[INFO ] 09-02-2023 09:51:06 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Middle Name')] : visible
+[INFO ] 09-02-2023 09:51:06 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Last Name')] : visible
+[INFO ] 09-02-2023 09:51:06 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'Employee Id')]/following::input[1] : visible
+[INFO ] 09-02-2023 09:51:09 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Save'] : clickable
+[INFO ] 09-02-2023 09:51:13 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'Nickname')]/following::input[1] : visible
+[INFO ] 09-02-2023 09:51:13 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'Other Id')]/following::input[1] : visible
+[INFO ] 09-02-2023 09:51:14 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'License Number')]/following::input[1] : visible
+[INFO ] 09-02-2023 09:51:14 [main] [Log] - waitForElementClickableBy: Element By.xpath: //label[contains(text(),'License')]/following::div[contains(@class,'date-input')][1] : clickable
+[INFO ] 09-02-2023 09:51:15 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(@class,'month')] : clickable
+[INFO ] 09-02-2023 09:51:16 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(text(),'May')] : clickable
+[INFO ] 09-02-2023 09:51:16 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(@class,'year')] : clickable
+[INFO ] 09-02-2023 09:51:16 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(text(),'2019')] : clickable
+[INFO ] 09-02-2023 09:51:16 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[text()='20'] : clickable
+[INFO ] 09-02-2023 09:51:16 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[text()='20'] : clickable
+[INFO ] 09-02-2023 09:51:17 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'SSN Number')]/following::input[1] : visible
+[INFO ] 09-02-2023 09:51:17 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'SIN Number')]/following::input[1] : visible
+[INFO ] 09-02-2023 09:51:17 [main] [Log] - waitForElementClickableBy: Element By.xpath: //label[text()='Nationality']/following::div[@class='oxd-select-wrapper'][1] : clickable
+[INFO ] 09-02-2023 09:51:17 [main] [Log] - waitForElementClickableBy: Element By.xpath: //span[text()='American'] : clickable
+[INFO ] 09-02-2023 09:51:17 [main] [Log] - waitForElementClickableBy: Element By.xpath: //label[text()='Marital Status']/following::div[@class='oxd-select-wrapper'][1] : clickable
+[INFO ] 09-02-2023 09:51:17 [main] [Log] - waitForElementClickableBy: Element By.xpath: //span[text()='Single'] : clickable
+[INFO ] 09-02-2023 09:51:17 [main] [Log] - waitForElementClickableBy: Element By.xpath: //label[contains(text(),'Birth')]/following::div[contains(@class,'date-input')][1] : clickable
+[INFO ] 09-02-2023 09:51:18 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(@class,'month')] : clickable
+[INFO ] 09-02-2023 09:51:19 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(text(),'February')] : clickable
+[INFO ] 09-02-2023 09:51:19 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(@class,'year')] : clickable
+[INFO ] 09-02-2023 09:51:19 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(text(),'2001')] : clickable
+[INFO ] 09-02-2023 09:51:19 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[text()='20'] : clickable
+[INFO ] 09-02-2023 09:51:19 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[text()='20'] : clickable
+[INFO ] 09-02-2023 09:51:30 [main] [Log] - waitForElementClickableBy: Element By.xpath: //label[text()='Madle'] : unclickable
+[INFO ] 09-02-2023 09:51:30 [main] [Log] - waitForElementClickableBy: Element By.xpath: //label[text()='Madle'] : unclickable
+[INFO ] 09-02-2023 09:51:35 [main] [Log] - 
+TestListener: COMPLETED TC: TC3 - FAIL 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 09:51:35 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/111
+[ERROR] 09-02-2023 09:51:35 [main] [Log] - FAILED !! Screenshot for test case: TC3
+[ERROR] 09-02-2023 09:51:36 [main] [Log] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Madle']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-OOFBHA8', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4cff1855309c1ccd39a61843b48c9af7, findElement {using=xpath, value=//label[text()='Madle']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55962}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55962/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cff1855309c1ccd39a61843b48c9af7
+[INFO ] 09-02-2023 09:51:37 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 10:03:58 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 10:03:58 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 10:03:59 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 10:04:00 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 10:04:00 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 09-02-2023 10:04:22 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 10:04:26 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Username')] : visible
+[INFO ] 09-02-2023 10:04:27 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Password')] : visible
+[INFO ] 09-02-2023 10:04:27 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Login'] : clickable
+[INFO ] 09-02-2023 10:04:30 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC3
+[INFO ] 09-02-2023 10:04:30 [main] [Log] - waitForElementClickableBy: Element By.xpath: //span[text()='PIM'] : clickable
+[INFO ] 09-02-2023 10:04:35 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+[INFO ] 09-02-2023 10:04:35 [main] [Log] - waitForElementClickableBy: Element By.xpath: //a[text()='Add Employee'] : clickable
+[INFO ] 09-02-2023 10:04:37 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'First Name')] : visible
+[INFO ] 09-02-2023 10:04:37 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Middle Name')] : visible
+[INFO ] 09-02-2023 10:04:37 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Last Name')] : visible
+[INFO ] 09-02-2023 10:04:38 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'Employee Id')]/following::input[1] : visible
+[INFO ] 09-02-2023 10:04:40 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Save'] : clickable
+[INFO ] 09-02-2023 10:04:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'Nickname')]/following::input[1] : visible
+[INFO ] 09-02-2023 10:04:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'Other Id')]/following::input[1] : visible
+[INFO ] 09-02-2023 10:04:45 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'License Number')]/following::input[1] : visible
+[INFO ] 09-02-2023 10:04:46 [main] [Log] - waitForElementClickableBy: Element By.xpath: //label[contains(text(),'License')]/following::div[contains(@class,'date-input')][1] : clickable
+[INFO ] 09-02-2023 10:04:47 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(@class,'month')] : clickable
+[INFO ] 09-02-2023 10:04:47 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(text(),'May')] : clickable
+[INFO ] 09-02-2023 10:04:47 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(@class,'year')] : clickable
+[INFO ] 09-02-2023 10:04:48 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(text(),'2019')] : clickable
+[INFO ] 09-02-2023 10:04:48 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[text()='20'] : clickable
+[INFO ] 09-02-2023 10:04:48 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[text()='20'] : clickable
+[INFO ] 09-02-2023 10:04:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'SSN Number')]/following::input[1] : visible
+[INFO ] 09-02-2023 10:04:48 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[contains(text(),'SIN Number')]/following::input[1] : visible
+[INFO ] 09-02-2023 10:04:48 [main] [Log] - waitForElementClickableBy: Element By.xpath: //label[text()='Nationality']/following::div[@class='oxd-select-wrapper'][1] : clickable
+[INFO ] 09-02-2023 10:04:49 [main] [Log] - waitForElementClickableBy: Element By.xpath: //span[text()='American'] : clickable
+[INFO ] 09-02-2023 10:04:49 [main] [Log] - waitForElementClickableBy: Element By.xpath: //label[text()='Marital Status']/following::div[@class='oxd-select-wrapper'][1] : clickable
+[INFO ] 09-02-2023 10:04:49 [main] [Log] - waitForElementClickableBy: Element By.xpath: //span[text()='Single'] : clickable
+[INFO ] 09-02-2023 10:04:49 [main] [Log] - waitForElementClickableBy: Element By.xpath: //label[contains(text(),'Birth')]/following::div[contains(@class,'date-input')][1] : clickable
+[INFO ] 09-02-2023 10:04:49 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(@class,'month')] : clickable
+[INFO ] 09-02-2023 10:04:50 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(text(),'February')] : clickable
+[INFO ] 09-02-2023 10:04:50 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(@class,'year')] : clickable
+[INFO ] 09-02-2023 10:04:51 [main] [Log] - waitForElementClickableBy: Element By.xpath: //li[contains(text(),'2001')] : clickable
+[INFO ] 09-02-2023 10:04:51 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[text()='20'] : clickable
+[INFO ] 09-02-2023 10:04:51 [main] [Log] - waitForElementClickableBy: Element By.xpath: //div[text()='20'] : clickable
+[INFO ] 09-02-2023 10:04:51 [main] [Log] - waitForElementClickableBy: Element By.xpath: //label[text()='Male'] : clickable
+[INFO ] 09-02-2023 10:04:51 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Save'] : clickable
+[INFO ] 09-02-2023 10:04:51 [main] [Log] - 
+TestListener: COMPLETED TC: TC3 - PASS 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 10:04:52 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 20:39:08 [main] [Log] - Loaded all properties files.
+[INFO ] 09-02-2023 20:39:08 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 09-02-2023 20:39:08 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 09-02-2023 20:39:27 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 09-02-2023 20:39:27 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[ERROR] 09-02-2023 20:42:59 [main] [Log] - org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-OOFBHA8', ip: '192.168.43.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40daa5ffbac7ac50ab26e5b598afb10a, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63776}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63776/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 40daa5ffbac7ac50ab26e5b598afb10a
+[INFO ] 09-02-2023 20:43:00 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC1
+[INFO ] 09-02-2023 20:43:00 [main] [Log] - 
+TestListener: COMPLETED TC: TC1 - SKIP 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 20:43:00 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 20:43:02 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC2
+[INFO ] 09-02-2023 20:43:02 [main] [Log] - 
+TestListener: COMPLETED TC: TC2 - SKIP 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 20:43:02 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 20:43:02 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC2
+[INFO ] 09-02-2023 20:43:02 [main] [Log] - 
+TestListener: COMPLETED TC: TC2 - SKIP 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 20:43:02 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 20:43:02 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC3
+[INFO ] 09-02-2023 20:43:02 [main] [Log] - 
+TestListener: COMPLETED TC: TC3 - SKIP 
+---------------------------------------------------------------
+[INFO ] 09-02-2023 20:43:02 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 09-02-2023 20:43:03 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------

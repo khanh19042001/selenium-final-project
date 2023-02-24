@@ -1,0 +1,103 @@
+[INFO ] 11-02-2023 13:29:25 [main] [Log] - Loaded all properties files.
+[INFO ] 11-02-2023 13:29:25 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 11-02-2023 13:29:25 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 11-02-2023 13:29:28 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 11-02-2023 13:29:28 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 11-02-2023 13:31:44 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[ERROR] 11-02-2023 13:31:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Username')] : invisible 
+[ERROR] 11-02-2023 13:32:00 [main] [Log] - java.lang.NullPointerException
+[INFO ] 11-02-2023 13:32:00 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC1
+[INFO ] 11-02-2023 13:32:00 [main] [Log] - 
+TestListener: COMPLETED TC: TC1 - SKIP 
+---------------------------------------------------------------
+[INFO ] 11-02-2023 13:32:00 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 11-02-2023 13:32:00 [main] [Log] - TestBase: Close Driver 
+[INFO ] 11-02-2023 13:32:00 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 11-02-2023 13:43:17 [main] [Log] - Loaded all properties files.
+[INFO ] 11-02-2023 13:43:17 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 11-02-2023 13:43:17 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 11-02-2023 13:43:18 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 11-02-2023 13:43:18 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[ERROR] 11-02-2023 13:48:22 [main] [Log] - org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-OOFBHA8', ip: '192.168.43.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3639dd2d0a6998cfc2e7097a58789425, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56434}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56434/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3639dd2d0a6998cfc2e7097a58789425
+[INFO ] 11-02-2023 13:48:23 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC1
+[INFO ] 11-02-2023 13:48:23 [main] [Log] - 
+TestListener: COMPLETED TC: TC1 - SKIP 
+---------------------------------------------------------------
+[INFO ] 11-02-2023 13:48:23 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 11-02-2023 13:48:23 [main] [Log] - TestBase: Close Driver 
+[INFO ] 11-02-2023 13:48:23 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 11-02-2023 17:06:18 [main] [Log] - Loaded all properties files.
+[INFO ] 11-02-2023 17:06:18 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 11-02-2023 17:06:18 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 11-02-2023 17:06:20 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 11-02-2023 17:06:20 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 11-02-2023 17:07:10 [main] [Log] - Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 11-02-2023 17:07:11 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Username')] : visible
+[INFO ] 11-02-2023 17:07:16 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[contains(@placeholder,'Password')] : visible
+[INFO ] 11-02-2023 17:07:21 [main] [Log] - waitForElementClickableBy: Element By.xpath: //button[normalize-space()='Login'] : clickable
+[INFO ] 11-02-2023 17:08:49 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC1
+[INFO ] 11-02-2023 17:08:49 [main] [Log] - 
+TestListener: COMPLETED TC: TC1 - FAIL 
+---------------------------------------------------------------
+[INFO ] 11-02-2023 17:08:49 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[ERROR] 11-02-2023 17:08:49 [main] [Log] - FAILED !! Screenshot for test case: TC1
+[ERROR] 11-02-2023 17:08:49 [main] [Log] - java.lang.NullPointerException
+[INFO ] 11-02-2023 17:08:49 [main] [Log] - TestBase: Close Driver 
+[INFO ] 11-02-2023 17:08:50 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 11-02-2023 17:09:35 [main] [Log] - Loaded all properties files.
+[INFO ] 11-02-2023 17:09:35 [main] [Log] - TestBase: Properties For Testing:
+{databaseName=KETOAN_AUTO_HOADON, language=vi, exportVideoPath=ExportData/Videos, open_reports_after_execution=no, screenshot_all_steps=no, WAIT_DEFAULT=10, testing_version=1.0, CHROME_DRIVER=, author=MISA, reportTitle=AMIS ACCOUNTING | Automation Report, video_record=no, zip_folder=no, exportCapturePath=ExportData/Images, WAIT_PAGE_LOADED=30, projectName=AMIS ACCOUNTING, WAIT_EXPLICIT=10, extentReportFolder=ExtentReports, draw_border_err_element=yes, WAIT_IMPLICIT=3, extentReportName=ExtentReports, tfslink=http://tfs2017-01:8080/tfs/defaultcollection/SMECLOUD/_workitems?id=, loginExcelDataPath=src/test/resources/datatest/amisaccounting/LoginData.xlsx, screenshot_failed_steps=yes, browser=chrome, remote_url=localhost, remote_port=4444, screenshot_passed_steps=no, override_reports=yes, target=local, headless=false, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=1, screenshot_skipped_steps=yes, send_email_to_users=no}
+[INFO ] 11-02-2023 17:09:35 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 11-02-2023 17:09:36 [main] [WebDriverManager] - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[INFO ] 11-02-2023 17:09:36 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\ADMIN\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[ERROR] 11-02-2023 17:14:15 [main] [Log] - org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-OOFBHA8', ip: '192.168.43.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [305f6cf3299787ce5b6991b4f4b78ad1, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57290}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57290/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 305f6cf3299787ce5b6991b4f4b78ad1
+[INFO ] 11-02-2023 17:14:16 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC1
+[INFO ] 11-02-2023 17:14:16 [main] [Log] - 
+TestListener: COMPLETED TC: TC1 - SKIP 
+---------------------------------------------------------------
+[INFO ] 11-02-2023 17:14:16 [main] [Log] - captureScreenshot: Screenshot taken current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 11-02-2023 17:14:16 [main] [Log] - TestBase: Close Driver 
+[INFO ] 11-02-2023 17:14:17 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
